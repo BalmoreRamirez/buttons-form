@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  background: #eee url("waterfall.jpg") no-repeat center center;
+  position: relative;
+  height: 100%;
+}
+body a {
+  color: #fff;
+}
+body a:hover {
+  color: blue;
+}
+.headerContainer,
+.bodyContainer,
+.footerContainer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.padding {
+  padding: 20px;
+}
+.headerContainer .padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.bodyContainer {
+  min-height: 500px;
+  color: #fff;
+}
+
+.transparent_btn {
+  margin: 5px;
+  display: inline-block;
+  padding: 10px 14px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 120%;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: background-color 300ms ease;
+  -moz-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+  cursor: pointer;
+}
+.transparent_btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+/* Orange Button */
+.transparent_btn.orange {
+  color: #ffc65d;
+  border-color: #ffc65d;
+}
+.transparent_btn.orange:hover {
+  background-color: rgba(255, 198, 93, 0.3);
+}
+/* Blue Button */
+.transparent_btn.blue {
+  color: #aeddf5;
+  border-color: #aeddf5;
+}
+.transparent_btn.blue:hover {
+  background-color: rgba(174, 221, 245, 0.3);
+}
+/* Green Button */
+.transparent_btn.green {
+  color: #86ec93;
+  border-color: #86ec93;
+}
+.transparent_btn.green:hover {
+  background-color: rgba(134, 236, 147, 0.3);
+}
+.form {
+	width: 80%;
+	margin: auto 10px;
+	text-align: center;
+}
+.form input{
+	width: 35%;
+	padding: 8px;
+  border-radius: 10px;
+  border: hidden;
+  border: 2px solid white;
+  padding: 10px 30px;
+  background: black;
+  color: white;
+}
+.form button{
+	width: 10%;
+  padding: 10px 30px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  border: hidden;
+  background: black;
+  color: white;
+}
